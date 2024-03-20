@@ -1,4 +1,27 @@
-
-
-
-
+body, html {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+.sidebar {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+.content {
+    margin-left: 200px;
+    padding: 20px;
+}
+.song {
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+.audio-controls {
+    margin-top: 20px;
+}
