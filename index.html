@@ -17,7 +17,7 @@
     
     <title>Reproductor de Música</title>
     <link rel="stylesheet" href="/style.css">
-
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 </head>
 <body>
 
@@ -31,9 +31,9 @@
     <li>songs</li>
 </div>
 
-<div class="content">
+<div class="content" id="tracklist">
     <div class="song">
-        <img src="/descarga.jpg" alt="">
+        <img src="/descarga.jpg" alt="" class="h=full">
         <h2 id="songTitle">Die For You - The Weeknd</h2>
         <p>Album: Starboy</p>
         <p>Artist: The Weeknd</p>
@@ -48,7 +48,7 @@
     </div>
 </div>
 
-<script>
+<!-- <script>
     var audioPlayer = document.getElementById("audioPlayer");
 
     function playAudio() {
@@ -58,7 +58,7 @@
     function pauseAudio() {
         audioPlayer.pause();
     }
-</script>
-
+</script> -->
+    <script src="/script.js"></script>
 </body>
 </html>
