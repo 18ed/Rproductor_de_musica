@@ -29,12 +29,24 @@ const tracklist = document.getElementById("tracklist")
     res.data.songs.map ( (song) =>{
 
       const div = document.createElement("div")
-      div.classList.add("h-16")
+      div.classList.add("cancion")
       div.innerHTML = `
         <img src="${song.path.front}" alt="" class="h=full">
       `
 
+     div.addEventListener("click", () => {
+      document.getElementById("current-song-img").setAttribute('src', song.path.front)
+      document.getElementById("audioplayer").setAttribute('src', song.path.audio)
+
+     })
+
+
       tracklist.appendChild(div)
+
+      
+      
+      
+      
     })
 
 

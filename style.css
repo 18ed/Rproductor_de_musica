@@ -18,10 +18,19 @@ body, html {
 }
 .song {
     margin-top: 20px;
-    background-color: #fff;
+    background-color: #9e5858;
     padding: 20px;
     border-radius: 5px;
 }
 .audio-controls {
     margin-top: 20px;
+}
+
+.cancion {
+
+    height: 100px;
+}
+
+.cancion img {
+    height: 100%
 }
